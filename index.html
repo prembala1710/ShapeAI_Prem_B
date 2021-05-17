@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" , dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+	<style type="text/css">
+		#Calculator {
+			text-align: center;
+			background-color: black;
+			color: white;
+			width : 300px;
+			border-radius: 25px;
+			margin: auto;
+		}
+		#header {
+			margin-top: 25px;
+			background-color: gray;
+			border-radius: 25px 25px 0px 0px;
+		}
+		input {
+			margin: 5px;
+			border-radius: 15px;
+			padding-left: 15px; 
+		}
+		#submit {
+			margin-bottom: 15px;
+			margin-top: 5px;
+			border-radius: 15px;
+		}
+		#report {
+			text-align: left;
+			padding-bottom: 15px;
+		}
+	</style>
+</head>
+<body>
+	<div id="Calculator">
+		<h1 id="header">Calculator</h1>
+		<form action="/" method="post">
+			<input id="weight" type="text" name="weight" placeholder="Weight (in Kilograms)"><br>
+			<input id="height" type="text" name="height" placeholder="Height (in metres)"><br>
+			<button id="submit" type="submit" name="submit">Calculate</button>
+		</form>
+	</div>
+</body>
+</html>
